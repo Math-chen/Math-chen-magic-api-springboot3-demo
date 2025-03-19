@@ -8,3 +8,6 @@ org.ssssssss.magicapi中的所有类（修复了新特性不兼容的问题）
 
 2）在pom.xml中添加如下配置，编译时增加这个参数，方便spring获取参数名
 ![img_1.png](img_1.png)
+
+注意：如果没有使用task插件，这个文件夹可以不修改
+![img_2.png](img_2.png)
