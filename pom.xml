@@ -28,9 +28,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version> <!-- 确保版本号适合您的需求 -->
                 <configuration>
-                    <compilerArguments>
-                        <compilerArgument>-parameters</compilerArgument>
-                    </compilerArguments>
+                    <compilerArgs>
+                        <arg>-parameters</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>
