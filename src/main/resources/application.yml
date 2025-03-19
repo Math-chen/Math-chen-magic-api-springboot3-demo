@@ -1,0 +1,14 @@
+magic-api:
+  task:
+    thread-name-prefix: magic-task
+    pool:
+      size: 8
+    shutdown:
+      await-termination: true
+      await-termination-period: 2m
+    log: true
+
+
+  web: /magic/web
+  resource:
+    location: /data/magic-api/core
